@@ -94,12 +94,12 @@
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
       
         <config-file target="AndroidManifest.xml" parent="/manifest/queries">
-            <queries>
+            
                 <intent>
                     <action android:name="android.intent.action.SENDTO" />
                     <data android:scheme="mailto" />
                 </intent>
-            </queries>
+           
         </config-file>
      
         <config-file target="config.xml" parent="/*">
